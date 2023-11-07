@@ -1,8 +1,20 @@
-import Link from 'next/link';
+// src/pages/posts/first-post.tsx
+import Link from "next/link";
+import Head from "next/head";
+import Layout from "@/components/Layout";
 
 const FirstPost = () => {
 	return (
-    <><h1>First Post</h1><Link href={"/"}>Back to Home</Link></>
+		<Layout>
+			<Head>
+				<title>First Post</title>
+			</Head>
+
+			<h1>First Post</h1>
+			<h2>
+				<Link href="/">Back to home</Link>
+			</h2>
+		</Layout>
 	);
 };
 

@@ -1,13 +1,8 @@
-import styles from "../styles/Home.module.css";
+// src/pages/index.tsx
+import { Home } from "@/features/Home";
 
-const Home = () => {
-	return (
-		<>
-			<div className={styles.template}>
-				<h1>Hello Next.js</h1>
-			</div>
-		</>
-	);
+const HomePage = () => {
+	return <Home />;
 };
 
-export default Home;
+export default HomePage;

@@ -1,4 +1,3 @@
-// src/features/Home/index.tsx
 import Head from "next/head";
 import Layout from "@/components/Layout/";
 import utilStyles from "@/styles/utils.module.css";
